@@ -9,6 +9,13 @@ body {
   padding-left: 100px;
   height: 500px;
 }
+p{
+	text-align:center;
+	padding: 1px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:36px;
+	margin-right:50px;
+}
  
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   background-repeat: no-repeat;
@@ -21,8 +28,8 @@ body {
   display: none;
   float: left;
   position: relative;
-  top: 167px;
-  left: -212px;
+  top: -350px;
+  left: -480px;
 
 } 
  
@@ -30,7 +37,7 @@ body {
   float: left;
 }
  
-.ryu-ready, .ryu-still, .ryu-throwing, .ryu-coolpose {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   width: 659px;
   height: 494px;
 }

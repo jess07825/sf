@@ -17,7 +17,7 @@ $(document).ready(function() {
       500,
       function() {
         $(this).hide();
-        $(this).css('left','-212px');
+        $(this).css('left',' -480px');
       }
     );
   })
@@ -34,19 +34,17 @@ function playHadouken () {
 }
 
 //coolpose start//
-var xtriggered=88;
-  $('.ryu').keydown(function() {
-    $('.ryu-still').hide();
-    $('.ryu-coolpose').show();
-  })
-  .keyup(function() {
-    $('.ryu-coolpose').hide();
+
+var xTriggered = 88;
+$(document).keydown(function( event ) {
+if (event.which = 88 ) {
+   $('.ryu-still').hide();
+   $('.ryu-cool').show();
+}
+$(document).keyup(function( event) {
+	if (event.which = 88 ) {
+    $('.ryu-cool').hide();
     $('.ryu-still').show();
-  })
-
-
-
-
-
-
- 
+	}
+});
+})
